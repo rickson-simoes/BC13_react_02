@@ -12,6 +12,7 @@ export const Container = styled.div<ContainerProps>`
   padding: 16px;
   width: 100%;
   color: #666360;
+  transition: 0.4s;
 
   display: flex;
   align-items: center;
@@ -25,7 +26,6 @@ export const Container = styled.div<ContainerProps>`
     css`
       color: #ff9000;
       border-color: #ff9000;
-      transition: 0.4s;
     `}
 
   ${(props) =>
