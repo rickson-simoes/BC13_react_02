@@ -7,7 +7,8 @@ import SignUp from './pages/SignUp';
 
 import ToastContainer from './components/ToastContainer';
 
-import { AuthProvider } from './hooks/AuthContext';
+import { AuthProvider } from './hooks/Auth';
+import { ToastProvider } from './hooks/Toast';
 
 const App: React.FC = () => {
   return (
