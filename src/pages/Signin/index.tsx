@@ -49,6 +49,12 @@ const SignIn: React.FC = () => {
           email: data.email,
           password: data.password,
         });
+
+        /*
+         * Se ocorrer algum problema na hora de logar
+         * e não for redirecionado,
+         * colocar um useHistory aqui
+         */
       } catch (err) {
         if (err instanceof Yup.ValidationError) {
           const errors = getValidationErrors(err);
